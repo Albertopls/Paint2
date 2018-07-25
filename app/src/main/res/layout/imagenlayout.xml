@@ -1,0 +1,17 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/view_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#26ce61" >
+
+    <ImageView
+        android:id="@+id/imagenn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="124dp"
+        android:src="@drawable/hamm" />
+
+</RelativeLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.eduardopalacios.paint2.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+
+    <com.example.eduardopalacios.paint2.Lienzo
+        android:layout_width="match_parent"
+        android:layout_weight="18.84"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:id="@+id/lienzo"
+        android:background="#ffffff"
+
+
+
+        />
+
+
+    <ImageView
+        android:id="@+id/colocarimagen"
+        android:layout_width="340dp"
+        android:layout_height="340dp"
+        android:layout_gravity="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="22dp"
+        android:layout_weight="1"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/botonRojo"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/altura_color"
+            android:layout_weight="1"
+            android:background="#ffff4444"
+            />
+
+        <ImageButton
+            android:id="@+id/botonAzul"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/altura_color"
+            android:layout_weight="1"
+            android:background="#ff00ddff"
+            />
+
+        <ImageButton
+            android:id="@+id/botonMorado"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/altura_color"
+            android:layout_weight="1"
+            android:background="#ffaa66cc" />
+
+        <ImageButton
+            android:id="@+id/botonVerde"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/altura_color"
+            android:layout_weight="1"
+            android:background="#ff99cc00"
+            />
+
+        <ImageButton
+            android:id="@+id/botonNegro"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/altura_color"
+            android:layout_weight="1"
+            android:background="#ff000000" />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/retroceder"
+        android:layout_width="41dp"
+        android:layout_height="29dp"
+        android:layout_gravity="top|right"
+        android:src="@drawable/undoo" />
+
+
+</FrameLayout>

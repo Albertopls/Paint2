@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="138dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/hoja_roja"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/botonrojo"
+            android:layout_weight="1"
+           />
+
+        <ImageView
+            android:id="@+id/hoja_azul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/botonazul"
+            android:layout_weight="1"
+
+           />
+
+        <ImageView
+            android:id="@+id/hoja_morada"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/botonmorado"
+            android:layout_weight="1"
+
+            />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="136dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/hoja_verde"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/botonverde"
+           />
+
+        <ImageView
+            android:id="@+id/hoja_negra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/botonnegro"
+            android:layout_weight="1"
+           />
+
+        <ImageView
+            android:id="@+id/hoja_blanca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/botonblanco"
+            android:layout_weight="1"
+
+           />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nuevodoc"
+            android:icon="@mipmap/ic_add_circle_black_24dp"
+            android:title="Nueva Hoja" />
+        <item
+            android:id="@+id/tamaño"
+            android:icon="@mipmap/ic_brush_black_24dp"
+            android:title="Tamaño Pincel" />
+        <item
+            android:id="@+id/borrar"
+            android:icon="@mipmap/ic_border_color_black_24dp"
+
+            android:title="Goma" />
+        <item
+            android:id="@+id/Colorhoja"
+            android:icon="@mipmap/ic_color_lens_black_24dp"
+            android:title="Color Hoja" />
+        <item
+            android:id="@+id/nav_send"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Colocar Imagen" />
+        <item
+            android:id="@+id/guardar"
+            android:icon="@mipmap/ic_save_black_24dp"
+            android:title="Guardar Dibujo en Galeria" />
+
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+
+        </menu>
+    </item>
+
+</menu>
